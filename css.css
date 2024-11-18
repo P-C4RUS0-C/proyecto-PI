@@ -1,0 +1,123 @@
+/* Reset bàsic */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estil global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Capçalera */
+.capçalera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navegació ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navegació a {
+    color: white;
+    text-decoration: none;
+}
+
+.navegació a:hover {
+    text-decoration: underline;
+}
+
+/* Bàner Promocional */
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffcc00;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.botó-crida {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.botó-crida:hover {
+    background-color: #555;
+}
+
+/* Missatge de Benvinguda */
+.benvinguda {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Galeria d'Imatges */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.imatge img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.imatge:hover img {
+    transform: scale(1.05);
+}
+
+/* Productes Destacats */
+.productes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #e8e8e8;
+    text-align: center;
+}
+
+.producte img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.producte h3 {
+    margin-bottom: 10px;
+}
+
+/* Peu de Pàgina */
+.peu-pagina {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
